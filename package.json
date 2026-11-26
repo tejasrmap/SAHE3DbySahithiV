@@ -1,0 +1,21 @@
+{
+  "name": "sahe3d-campus-explorer",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "SAHE Kanuru in 3D - Production Interactive 3D Digital Twin & Geospatial Campus Explorer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test/run_tests.cjs"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}
