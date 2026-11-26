@@ -1,0 +1,27 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.6908, 16.4828],
+        [80.6942, 16.4831],
+        [80.6958, 16.4838],
+        [80.6965, 16.4862],
+        [80.6952, 16.4878],
+        [80.6925, 16.4876],
+        [80.6905, 16.4855],
+        [80.6902, 16.4839],
+        [80.6908, 16.4828]
+      ]
+    ]
+  },
+  "properties": {
+    "name": "SAHE Kanuru Campus Boundary",
+    "institution": "Siddhartha Academy of Higher Education",
+    "locality": "Kanuru, Vijayawada, Andhra Pradesh, India",
+    "areaHectares": 28.5,
+    "accuracy": "SOURCE-BASED",
+    "source": "OpenStreetMap & High-Res Satellite Verification 2026"
+  }
+}

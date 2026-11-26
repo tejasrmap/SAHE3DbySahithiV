@@ -1,0 +1,112 @@
+[
+  {
+    "id": "main-gate",
+    "name": "SAHE Main Gate & Entrance Arch",
+    "category": "landmark",
+    "lat": 16.4832,
+    "lon": 80.6922,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Architectural maroon entrance arch with bold Siddhartha Academy signage along Vijayawada NH65 Bandar Road.",
+    "scenePosition": [-31.4, 6.5, 48.5]
+  },
+  {
+    "id": "cricket-ground",
+    "name": "SAHE Cricket Ground & Athletic Oval",
+    "category": "sports",
+    "lat": 16.4835,
+    "lon": 80.6917,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Full-size athletic ground with 400m running track, turf pitch, practice nets, and spectator pavilion.",
+    "scenePosition": [-38.1, 1.0, 18.2]
+  },
+  {
+    "id": "basketball-court",
+    "name": "VRSEC Synthetic Basketball Court",
+    "category": "sports",
+    "lat": 16.4843,
+    "lon": 80.6963,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Floodlit acrylic synthetic surface basketball court hosting inter-collegiate championships.",
+    "scenePosition": [59.0, 1.0, -7.5]
+  },
+  {
+    "id": "saraswathi-statue",
+    "name": "Saraswathi Statue & KachhaPi Garden Circle",
+    "category": "landmark",
+    "lat": 16.4847,
+    "lon": 80.6934,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Iconic landscaped garden rotunda featuring the Goddess Saraswathi sculpture and KachhaPi musical water monument.",
+    "scenePosition": [4.4, 4.0, -14.6]
+  },
+  {
+    "id": "ramakrishna-statue",
+    "name": "Swami Vivekananda / Ramakrishna Statue",
+    "category": "landmark",
+    "lat": 16.4842,
+    "lon": 80.6928,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Centrally positioned commemorative statue honoring Swami Vivekananda on the primary campus promenade.",
+    "scenePosition": [-10.1, 4.0, 2.5]
+  },
+  {
+    "id": "vl-dutt-statue",
+    "name": "Dr. V L Dutt Courtyard Statue",
+    "category": "landmark",
+    "lat": 16.4849,
+    "lon": 80.6921,
+    "elevation": 19.0,
+    "accuracy": "SOURCE-BASED",
+    "description": "Founders commemorative statue honoring Dr. V L Dutt situated within the CSE courtyard garden.",
+    "scenePosition": [-31.1, 3.5, -23.5]
+  },
+  {
+    "id": "canara-bank",
+    "name": "Canara Bank & 24/7 ATM Branch",
+    "category": "services",
+    "lat": 16.4831,
+    "lon": 80.6912,
+    "elevation": 19.0,
+    "accuracy": "VERIFIED",
+    "description": "Full-service banking branch and cash automated teller machine near the athletic ground pavilion.",
+    "scenePosition": [-45.0, 3.0, 29.8]
+  },
+  {
+    "id": "tata-power-ev",
+    "name": "Tata Power EV Fast Charging Station",
+    "category": "services",
+    "lat": 16.4828,
+    "lon": 80.6934,
+    "elevation": 19.0,
+    "accuracy": "SOURCE-BASED",
+    "description": "60kW dual-gun CCS2 electric vehicle DC fast charger accessible from the main entrance avenue.",
+    "scenePosition": [5.9, 2.0, 53.8]
+  },
+  {
+    "id": "pranayuv-tech",
+    "name": "Pranayuv Technologies Incubation Wing",
+    "category": "services",
+    "lat": 16.4847,
+    "lon": 80.6929,
+    "elevation": 19.0,
+    "accuracy": "SOURCE-BASED",
+    "description": "Campus technology incubator and industry collaboration center.",
+    "scenePosition": [-7.2, 4.0, -14.8]
+  },
+  {
+    "id": "pragathi-hostel",
+    "name": "Pragathi Residency Hostel",
+    "category": "hostels",
+    "lat": 16.4839,
+    "lon": 80.6952,
+    "elevation": 19.0,
+    "accuracy": "SOURCE-BASED",
+    "description": "Affiliated student boarding residence along Tummala Venkata Subbarao Street.",
+    "scenePosition": [29.4, 6.0, 6.8]
+  }
+]

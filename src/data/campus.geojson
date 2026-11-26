@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "name": "SAHE_Kanuru_Campus_GIS",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "campus-boundary",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.6908, 16.4828],
+            [80.6942, 16.4831],
+            [80.6958, 16.4838],
+            [80.6965, 16.4862],
+            [80.6952, 16.4878],
+            [80.6925, 16.4876],
+            [80.6905, 16.4855],
+            [80.6902, 16.4839],
+            [80.6908, 16.4828]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SAHE Kanuru Campus Boundary",
+        "category": "boundary",
+        "accuracy": "SOURCE-BASED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cse-it-complex",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6921, 16.4848]
+      },
+      "properties": {
+        "name": "CSE, AI, ECE, EIE Departments, VRSEC",
+        "category": "academic",
+        "accuracy": "VERIFIED",
+        "height": 18.0,
+        "floors": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "admin-central-library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6942, 16.4839]
+      },
+      "properties": {
+        "name": "VRSEC Central Library & Administration",
+        "category": "library",
+        "accuracy": "VERIFIED",
+        "height": 15.5,
+        "floors": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "civil-block",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6946, 16.4849]
+      },
+      "properties": {
+        "name": "Civil Engineering Block",
+        "category": "academic",
+        "accuracy": "VERIFIED",
+        "height": 16.5,
+        "floors": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "main-gate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6922, 16.4832]
+      },
+      "properties": {
+        "name": "SAHE Main Gate & Entrance Arch",
+        "category": "landmark",
+        "accuracy": "VERIFIED"
+      }
+    }
+  ]
+}

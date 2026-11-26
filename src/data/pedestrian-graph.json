@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    { "id": "n-main-gate", "lat": 16.4832, "lon": 80.6922, "scenePos": [-31.4, 48.5], "name": "Main Gate Junction" },
+    { "id": "n-entrance-mid", "lat": 16.4838, "lon": 80.6925, "scenePos": [-20.0, 28.0], "name": "Entrance Avenue Crossing" },
+    { "id": "n-cricket-junction", "lat": 16.4835, "lon": 80.6917, "scenePos": [-38.1, 18.2], "name": "Cricket Ground Turn" },
+    { "id": "n-canara-junction", "lat": 16.4831, "lon": 80.6912, "scenePos": [-45.0, 29.8], "name": "Canara Bank Entrance" },
+    { "id": "n-central-promenade", "lat": 16.4842, "lon": 80.6928, "scenePos": [-10.1, 2.5], "name": "Vivekananda Statue Plaza" },
+    { "id": "n-cse-entrance", "lat": 16.4848, "lon": 80.6921, "scenePos": [-32.2, -18.5], "name": "CSE Complex Gate" },
+    { "id": "n-canteen-junction", "lat": 16.4857, "lon": 80.6922, "scenePos": [-14.1, -32.5], "name": "Central Canteen Entry" },
+    { "id": "n-saraswathi-circle", "lat": 16.4847, "lon": 80.6934, "scenePos": [4.4, -14.6], "name": "Saraswathi Circle Walkway" },
+    { "id": "n-sh1-entrance", "lat": 16.4844, "lon": 80.6936, "scenePos": [6.1, -8.3], "name": "S&H Block I Entry" },
+    { "id": "n-library-junction", "lat": 16.4839, "lon": 80.6942, "scenePos": [16.2, 5.4], "name": "Central Library Atrium" },
+    { "id": "n-civil-entrance", "lat": 16.4849, "lon": 80.6946, "scenePos": [22.4, -16.8], "name": "Civil Block Walkway" },
+    { "id": "n-mech-entrance", "lat": 16.4856, "lon": 80.6935, "scenePos": [6.1, -31.4], "name": "Mech Block Gate" },
+    { "id": "n-basketball-court", "lat": 16.4843, "lon": 80.6963, "scenePos": [59.0, -7.5], "name": "Basketball Court Pavilion" },
+    { "id": "n-hostel-entrance", "lat": 16.4849, "lon": 80.6968, "scenePos": [69.4, -17.5], "name": "Boys Hostel Plaza" }
+  ],
+  "edges": [
+    { "from": "n-main-gate", "to": "n-entrance-mid", "distance": 62, "type": "walkway" },
+    { "from": "n-entrance-mid", "to": "n-cricket-junction", "distance": 45, "type": "walkway" },
+    { "from": "n-cricket-junction", "to": "n-canara-junction", "distance": 38, "type": "walkway" },
+    { "from": "n-entrance-mid", "to": "n-central-promenade", "distance": 70, "type": "walkway" },
+    { "from": "n-central-promenade", "to": "n-cse-entrance", "distance": 65, "type": "walkway" },
+    { "from": "n-cse-entrance", "to": "n-canteen-junction", "distance": 52, "type": "walkway" },
+    { "from": "n-canteen-junction", "to": "n-mech-entrance", "distance": 60, "type": "walkway" },
+    { "from": "n-central-promenade", "to": "n-saraswathi-circle", "distance": 50, "type": "walkway" },
+    { "from": "n-saraswathi-circle", "to": "n-sh1-entrance", "distance": 25, "type": "walkway" },
+    { "from": "n-saraswathi-circle", "to": "n-civil-entrance", "distance": 55, "type": "walkway" },
+    { "from": "n-sh1-entrance", "to": "n-library-junction", "distance": 45, "type": "walkway" },
+    { "from": "n-central-promenade", "to": "n-library-junction", "distance": 68, "type": "walkway" },
+    { "from": "n-civil-entrance", "to": "n-mech-entrance", "distance": 62, "type": "walkway" },
+    { "from": "n-civil-entrance", "to": "n-basketball-court", "distance": 85, "type": "walkway" },
+    { "from": "n-basketball-court", "to": "n-hostel-entrance", "distance": 35, "type": "walkway" }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nh65-bandar-rd",
+    "name": "NH65 Highway (Bandar Road)",
+    "type": "highway",
+    "width": 8.0,
+    "coordinates": [
+      [80.6888, 16.4822],
+      [80.6908, 16.4828],
+      [80.6922, 16.4832],
+      [80.6945, 16.4839],
+      [80.6978, 16.4848]
+    ]
+  },
+  {
+    "id": "main-entrance-rd",
+    "name": "SAHE Main Entrance Boulevard",
+    "type": "avenue",
+    "width": 5.0,
+    "coordinates": [
+      [80.6922, 16.4832],
+      [80.6925, 16.4840],
+      [80.6928, 16.4848],
+      [80.6929, 16.4855]
+    ]
+  },
+  {
+    "id": "library-rd",
+    "name": "Central Library & Academic Crescent",
+    "type": "internal",
+    "width": 4.0,
+    "coordinates": [
+      [80.6928, 16.4842],
+      [80.6936, 16.4842],
+      [80.6942, 16.4839],
+      [80.6946, 16.4849]
+    ]
+  },
+  {
+    "id": "saraswathi-rd",
+    "name": "Saraswathi Circle Promenade",
+    "type": "internal",
+    "width": 4.0,
+    "coordinates": [
+      [80.6928, 16.4848],
+      [80.6934, 16.4847],
+      [80.6936, 16.4854],
+      [80.6929, 16.4855]
+    ]
+  },
+  {
+    "id": "hostel-east-rd",
+    "name": "Boys Hostel Link Road",
+    "type": "internal",
+    "width": 4.0,
+    "coordinates": [
+      [80.6946, 16.4849],
+      [80.6958, 16.4849],
+      [80.6968, 16.4849]
+    ]
+  }
+]
