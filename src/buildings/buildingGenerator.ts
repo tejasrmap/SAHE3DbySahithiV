@@ -172,22 +172,29 @@ export class BuildingGenerator {
     const maroonColor = 0x6d2a2a;
     const concreteColor = 0x94a3b8;
 
-    // Create signage canvas
+    // Create signage canvas with high resolution and proper margins
     const canvas = document.createElement('canvas');
-    canvas.width = 1024;
-    canvas.height = 128;
+    canvas.width = 2048;
+    canvas.height = 256;
     const ctx = canvas.getContext('2d')!;
 
     ctx.fillStyle = '#6d2a2a';
-    ctx.fillRect(0, 0, 1024, 128);
+    ctx.fillRect(0, 0, 2048, 256);
 
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 42px "Segoe UI", sans-serif';
+    const text = 'SIDDHARTHA ACADEMY OF HIGHER EDUCATION';
+    let fontSize = 58;
+    ctx.font = `bold ${fontSize}px "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif`;
+    while (ctx.measureText(text).width > 1650 && fontSize > 20) {
+      fontSize -= 2;
+      ctx.font = `bold ${fontSize}px "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif`;
+    }
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText('SIDDHARTHA ACADEMY OF HIGHER EDUCATION', 512, 64);
+    ctx.fillText(text, 1024, 128);
 
     const signTex = new THREE.CanvasTexture(canvas);
+    signTex.anisotropy = 4;
     const signMat = new THREE.MeshLambertMaterial({ map: signTex });
     const maroonMat = this.matMgr.getSolidMaterial(maroonColor);
     const concreteMat = this.matMgr.getSolidMaterial(concreteColor);
